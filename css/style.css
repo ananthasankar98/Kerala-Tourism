@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#videohome {
+    position:absolute; 
+    height: 100%;
+    width: 100%;
+    top: 3px;;  
+    left:0;  
+    right:0;  
+    bottom:0;;
+}
+.overlaytext{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    color: white;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#carouselExampleCaptions{
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.midhead{
+    text-align: center;
+    margin-top: 600px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen;
+    text-underline-offset: 8px;
+    text-underline-position: below;   
+}
+.para{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen;
+    text-underline-offset: 8px;
+    margin-top: 60px;
+    margin-right: 59px;
+    
+}
+.long-text {
+    text-align: justify;
+    line-height: 145%;
+    width: 80%;
+    margin-left: 11%;
+    margin-bottom: 6%;
+    margin-top: 3%;
+    font-size: 140%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.addtext {
+    text-align: justify;
+    line-height: 145%;
+    width: 80%;
+    margin-left: 11%;
+    margin-bottom: 6%;
+    margin-top: 3%;
+    font-size: 140%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.containerfluid{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.button{
+    width: 25%;
+    margin-left: 35%;
+    margin-top: 2%;
+    
+}
+
+.additional{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen;
+    margin-top: 5%;
+    margin-right: 2%;
+    text-underline-position: below;
+    text-underline-offset: 8px;
+}
+
+.icontext{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen;
+    margin-top: 5%;
+    text-underline-offset: 8px;
+}
+.icons{
+    margin-left: 26%;
+    margin-top: 3%;
+}
+
+.navbarbottom{
+    background-color: darkslategray;
+    margin-top: 50px;
+    height: 180px;
+}
+
+.navtext{
+    color: black;
+    margin-left: 3%;
+}  
+  
+.navtext #copy{
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-top: 1%;
+}
+
+.d-flex:hover{
+    color: green;
+}
+
+.navbar{
+    height: 80%
+}
+
+.container-fluid{
+    height: 50%;
+}
+
+.topelement{
+    margin-left: 1070px;
+}
+
+
