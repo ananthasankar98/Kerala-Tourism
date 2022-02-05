@@ -19,16 +19,49 @@
     <body>
         <div class="sgup">
             <img id="bgimg" src="./pics/Duryodhanavadham_Kathakali_2265.jpg">
-            <form action="index.html" onsubmit="return validate()">
-                 <div class="mb-3">
+            <form action="#" onsubmit="return validate()">
+                <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email Address" required>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your Email Address" required>
+                    <label for="error" id="error_email"></label>
                     <br><br>
                     <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password" required>
+                    <input type="password" class="form-control" id="password" placeholder="Enter your Password" required>
+                    <label for="error" id="error_password"></label>
+                        <!-- Progress Bar -->
+                        <!-- <div class = "row">
+                        <div class = "col-lg-12">
+                        <progress hidden id="strength1" max = "100" value="0"></progress>
+                        <progress hidden id="strength2" max = "100" value="0"></progress>
+                        <progress hidden id="strength3" max = "100" value="0"></progress>
+                        </div>
+                        </div> -->
+                        <!-- <div class = "row">
+                        <div class = "col-sm-3">
+                        <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 100%"  ></div>
+                        </div>
+                        <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" ></div>
+                        </div>
+                        <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" ></div>
+                        </div>
+                        </div>
+                        </div> -->
+                        <div class="progress"  style="height: 6px"id = "progress" hidden>
+                        <div  class="progress-bar bg-danger" hidden id = "strength1" role="progressbar" style="width: 33.33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="90"></div>
+                        <div  class="progress-bar bg-warning" hidden id = "strength2" role="progressbar" style="width: 33.33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="90"></div>
+                        <div  class="progress-bar bg-success" hidden  id = "strength3" role="progressbar" style="width: 33.33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="90"></div>
+                        </div>
+                        <label id="comment"></label>
                     <br><br>
-                    <button type="submit" id="bton" class="btn btn-primary">Submit</button>
-                </div>
+                    <label for="exampleInputNumber" class="form-label">Phone Number</label>
+                    <input type="number" class="form-control" id="number" placeholder="Enter your Phone Number" required>
+                    <label for="error" id="error_number"></label>
+                    <br><br>
+                    <button type="submit" id="bton" class="btn btn-primary">Submit</button> 
+                    </div>   
             </form>
             <script src="valid.js"></script>
         </div>
