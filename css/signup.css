@@ -8,16 +8,17 @@
   height:100%;
   
 }
-#form{
+.mb-3{
+  padding-top: 3%;
   position: absolute;
   width: 40%;
   left: 450px;
-  top: 30px;
+  top: 100px;
   bottom: 0%;
   bottom: 0%;
   background-color: rgba(0,0,0,0.8);
   border-radius: 5%;
-  height: 110%;
+  height:57%;
   z-index: 2;
   cursor: pointer;
   color: white;
@@ -27,18 +28,3 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#texth{
-  color: white;
-  text-align: center;
-  text-underline-offset: 8px;
-}
-.buttonsub{
-  border-radius: 8%;
-  padding-right: 10%;
-  padding-left: 10%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  margin-left: 160px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 120%;
-}
